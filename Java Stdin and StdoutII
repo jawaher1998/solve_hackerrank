@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+         int i = scan.nextInt();
+        double d= scan.nextDouble();
+         scan.nextLine();
+         String s = scan.nextLine();
+     
+        if (s==s){
+          System.out.println("String: " + s);  
+        }
+        if(d>=0.0||d<=0.0){
+        
+        System.out.println("Double: " + d);}
+          if(i>=0||i<=0){
+            System.out.println("Int: " + i); 
+        }
+       
+    }
+}
